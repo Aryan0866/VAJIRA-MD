@@ -22,7 +22,7 @@ global.mess = {
     endLimit: '`Your daily limit has expired, the limit will be reset every 12 hours`',
 }
 
-global.owner = [process.env.OWNER_NUMBER] || ['94711453097'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
+global.owner = [process.env.OWNER_NUMBER] || ['923151595788'] // Owner number , (අයිතිකරුගේ නම්බර් එක )
 
 module.exports = {    
 SESSION_ID: process.env.SESSION_ID || 'youre session id',
@@ -36,10 +36,10 @@ AUTO_RECORDING:  process.env.AUTO_RECORDING  || false  ,
 AUTO_READ:  process.env.AUTO_READ  || false  ,
 AUTO_BIO:  process.env.AUTO_BIO  || false  ,    
 ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,            
-WORK_TYPE: process.env.WORK_TYPE || 'private'  ,
+WORK_TYPE: process.env.WORK_TYPE || 'public'  ,
 ANTI_LINK: process.env.ANTI_LINK || false  ,
 ANTI_BOT: process.env.ANTI_BOT || false  ,
-OWNER_NUMBER: process.env.OWNER_NUMBER || '94719199757'  ,    
+OWNER_NUMBER: process.env.OWNER_NUMBER || '923151595788'  ,    
 ALIVE: process.env.ALIVE || `default`,
 OWNER_NAME: process.env.OWNER_NAME || 'Vajira' ,     
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
@@ -48,6 +48,6 @@ AUTO_STICKER: process.env.AUTO_STICKER || false  ,
 WELCOME:  process.env.WELCOME  || false ,    
 NUMBER_212_BLOCK: process.env.NUMBER_212_BLOCK || false  ,
 FOOTER: process.env.FOOTER ||  '©ＶＡＪＩＲＡ - ＭＤ - Ｖ4',
-LOGO: process.env.LOGO || `https://telegra.ph/file/03f1eccdcb525a5e1a6ad.jpg` ,
-IMAGE: process.env.IMAGE || `https://telegra.ph/file/03f1eccdcb525a5e1a6ad.jpg`     
+LOGO: process.env.LOGO || `https://telegra.ph/file/e15f647d9fae239fcf255.jpg` ,
+IMAGE: process.env.IMAGE || `https://telegra.ph/file/e15f647d9fae239fcf255.jpg`     
 };
